@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Theme Header - Option -->
+    <template id="sr_header_opt" inherit_id="website.snippet_options" name="sr - Option">
+        <xpath expr="//we-select[@data-variable='header-template']" position="inside">
+            <we-button title="sr"
+                data-customize-website-views="website_sr.header"
+                data-customize-website-variable="'sr'"
+                data-img="/website_sr/static/src/images/silverring1.jpg"/>
+        </xpath>
+    </template>
+
+
+    <!-- Theme Header - Layout -->
+    <record id="website_sr.header" model="ir.ui.view">
+        <field name="name">sr Header</field>
+        <field name="type">qweb</field>
+        <field name="key">website_sr.header</field>
+        <field name="inherit_id" ref="website.layout"/>
+        <field name="mode">extension</field>
+        <field name="arch" type="xml">
+            <xpath expr="//header//nav" position="replace">
+                <t t-call="website.navbar">
+                    <t t-set="_navbar_classes" t-valuef=""/>
+                    <div id="o_main_nav">
+                        <header class="mainHeader">
+                            <nav class="navbar container ">
+                                <ul class="navLeft">
+                                    <li class="mega-menu">
+                                        <a href="#">SHOP</a>
+                                        <!-- <div class="dropdown" id="mega-menu-dropdown">
+                                            <div class="column">
+                                                <h3>Column 1</h3>
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                            </div>
+                                            <div class="column">
+                                                <h3>Column 2</h3>
+                                                <a href="#">Link 4</a>
+                                                <a href="#">Link 5</a>
+                                                <a href="#">Link 6</a>
+                                            </div>
+                                            <div class="column">
+                                                <h3>Column 3</h3>
+                                                <a href="#">Link 7</a>
+                                                <a href="#">Link 8</a>
+                                                <a href="#">Link 9</a>
+                                            </div>
+                                            <div class="images">
+                                                <img src="image1.jpg" alt="Image 1" />
+                                                <img src="image2.jpg" alt="Image 2" />
+                                            </div>
+                                        </div> -->
+                                    </li>
+                                    <li><a href="#">IMPACT</a></li>
+                                    <li><a href="#">LOOKBOOK</a></li>
+                                    <li><a href="#">PRESS</a></li>
+                                    <li><a href="#">CELEBRITY</a></li>
+                                    <li><a href="#">BLOG</a></li>
+                                </ul>
+                                <div class="logo">
+                                    <a href="#"><img src="logo.png" alt="Logo" /></a>
+                                </div>
+                                <ul class="navRight">
+                                    <li><a href="#">ABOUT US</a></li>
+                                    <li><a href="#">LAB GROWN DIAMONDS</a></li>
+                                    <li><a href="#">ACCOUNT</a></li>
+                                    <li><a href="wishlist.html"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#" id="search-icon"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="cart.html"><i class="fa fa-shopping-cart"></i><span class="cart-count">0</span></a></li>
+                                </ul>
+                            </nav>
+                        </header>
+                        <!-- <script src="/website_sr/static/src/js/script.js"></script> -->
+                    </div>
+                </t>
+            </xpath>
+        </field>
+    </record>
+</odoo>

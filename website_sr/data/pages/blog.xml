@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="blog_test" name="Blog Listing">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <div class="lookbook">
+                    <div class="container">
+                        <div class="lookbookSection">
+                            <h1>Blog and Style Guide</h1>
+                        </div>  
+                    </div>
+                </div>
+
+                <section class="blog">
+                    <div class="container">
+                        <div class="blog-listing">
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="blog-listing-card">
+                                <img src="/website_sr/static/src/images/blog_banner.png" alt="image"/>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <h3>How to Buy a Lab-Grown Diamond Tennis Bracelet?</h3>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>                       
+                        </div>
+                    </div>
+                </section>
+            </div>  
+        </t>
+    </template>
+    
+    
+    
+    <record id="blog_page" model="website.page">
+        <field name="name">Blog Listing</field>
+        <field name="is_published" eval="True"/>
+        <field name="url">/pages/lab-grown-diamond-jewelry-blog-and-style-guide</field>
+        <field name="header_overlay" eval="True"/>
+        <field name="view_id" ref="blog_test"/>
+        <field name="track" eval="True"/>
+    </record>
+</odoo>

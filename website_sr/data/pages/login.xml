@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="login_test" name="Login">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+            <div class="container">
+               <div class="login-container">
+                    <h2>Login</h2>
+                    <form action="#">
+                        <div class="form-group">
+                            <input type="text" id="email" name="Email" placeholder="Email" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="password" name="password" placeholder="Password" />
+                        </div>
+                        <a href="#" class="arrow button">SIGN IN</a>
+                        <a href="#" class="buttonbtn"><p>FORGOT YOUR PASSWORD?</p></a>
+                        <div class="loginsignup">
+                            <div class="loginsignuptext">
+                                <p>Don't have an account?</p>
+                            </div>
+                            <div class="loginsignupbtn">
+                                <a href="/account/register" class="arrow button">Sign Up</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div> 
+            </div>  
+        </t>
+    </template>
+    
+    
+    
+    <record id="login_page" model="website.page">
+        <field name="name">Login</field>
+        <field name="is_published" eval="True"/>
+        <field name="url">/account/login</field>
+        <field name="header_overlay" eval="True"/>
+        <field name="view_id" ref="login_test"/>
+        <field name="track" eval="True"/>
+    </record>
+</odoo>

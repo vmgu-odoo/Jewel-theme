@@ -1,0 +1,369 @@
+<odoo>
+    <template id="s_test_snippet" name="Home">
+        <section class="featureCard">
+                    <div class="container">
+                        <div>
+                            <h2 class="text-center">The Smiling Rocks Difference</h2>
+                            <div class="featureCardDiscription">
+                                <div class="featureCard1 text-center">
+                                    <img src="/website_sr/static/src/images/icon1banner.png" alt="image"/>
+                                    <p>Lab Grown Diamond Jewelry</p>
+                                    <a href="#" class="button arrow">Learn More</a>
+                                </div>
+                                <div class="featureCard2 text-center">
+                                    <img src="/website_sr/static/src/images/icon2banner.gif" alt="image"/>
+                                    <p>3% of each purchase goes to charity</p>
+                                    <a href="#" class="button arrow">Learn More</a>
+                                </div>
+                                 <div class="featureCard3 text-center">
+                                    <img src="/website_sr/static/src/images/icon3banner.png" alt="image"/>
+                                    <p>Laser inscribed diamonds with Smiling Rocks logo</p>
+                                    <a href="#" class="button arrow">Learn More</a>
+                                </div>
+                                 <div class="featureCard4 text-center">
+                                    <img src="/website_sr/static/src/images/icon1banner.png" alt="image"/>
+                                    <p>ESG+ Certified Brand Butterfly Mark</p>
+                                    <a href="#" class="button arrow">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+    </template>
+
+    <template id="s_lefttext_rightbigimage_snippet" name="Right Big Image">
+        <section class="textbgImage">
+                    <div class="container">
+                        <div class="textbgImageSection">
+                        <div class="textbg">
+                            <p>LAB GROWN DIAMONDS</p>
+                            <h2>FRAME</h2>
+                            <p class="bottomP">FRAME THE ELEGANCE OF YOUR STYLE</p>
+                            <a href="#" class="button arrow">Discover More</a>
+                        </div>
+                        <div class="textbgImageImg">
+                            <img alt="jewellery" src="/website_sr/static/src/images/bgImage.png" />
+                        </div>
+                        </div>
+                    </div>
+        </section>
+    </template>
+
+    <template id="s_shopHome_snippet" name="shop">
+        <section class="shopHome">
+                    <div class="container">
+                        <div class="shopHomeSection">
+                            <div class="shopHomeText text-center mb-4">
+                                <h2 class="mb-4">Shop By Category</h2>
+                                <p class="mb-1">Discover Smiling Rocks Fine Jewelry!</p>
+                                <p>Brilliant and Better!</p>
+                            </div>
+                            <div class="shopHomeCards">
+                            <div class="shopHomeCardUpper">
+                                <div class="shopHomeCard1 shopHomeCardLeft">
+                                    <img alt="" src="/website_sr/static/src/images/ringBanner.jpg" />
+                                    <h4 class="text-center mb-0 mt-3">RINGS</h4>      
+                                </div>
+                                <div class="shopHomeCardCenter">
+                                <div class="shopHomeCard1 mb-4">
+                                    <img alt="" src="/website_sr/static/src/images/earings.jpg" />
+                                    <h4 class="text-center mb-0 mt-3">EARRINGS</h4>      
+                                </div>
+                                <div class="shopHomeCard1">
+                                    <img alt="" src="/website_sr/static/src/images/necklace.jpg" />
+                                    <h4 class="text-center mb-0 mt-3">NECKLACES</h4>      
+                                </div>
+                                </div>
+                                <div class="shopHomeCard1 shopHomeCardRight">
+                                    <img alt="" src="/website_sr/static/src/images/bracelet.jpg" />
+                                    <h4 class="text-center mb-0 mt-3">BRACELETS</h4>      
+                                </div>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+        </section> 
+    </template>
+
+    <template id="s_bgimagetext_snippet" name="Big Image">
+        <section class="bgImageText">
+                    <div class="container">
+                        <div class="textbgImageSection">
+                        <div class="textbgImageImg">
+                            <img alt="jewellery" src="/website_sr/static/src/images/engagement.jpg" />
+                        </div>
+                        <div class="textbg">
+                            <h2 class="mb-5">SMILING BRIDES</h2>
+                            <a href="#" class="button arrow">ENGAGEMENT COLLECTION</a>
+                        </div>
+                        </div>
+                    </div>
+        </section>
+    </template>
+
+    <template id="s_shopcollection_snippet" name="shop collection">
+        <section class="shopCollection">
+                    <div class="container">
+                        <div class="shopCollectionSection">
+                        <div class="collectionTitle text-center">
+                            <div class="Titlebimg">
+                            <h2 class="mb-5">LOVE BEADS</h2>
+                            <a href="#" class="button arrow mb-5">SHOP COLLECTION</a>
+                            <div>
+                            <img alt="jewellery" src="/website_sr/static/src/images/leftimagecollection.jpg" />
+                            </div>
+                            </div>
+                        </div>
+                        <div class="collectionDetails">
+                            <div class="detailsCard1">
+                                <div class="imagePart">
+                                 <div class="hoverImage"></div>
+                                </div>
+                                <div class="textPart">
+                                <h4>LAB GROWN 3.21CT PEAR DIAMOND WITH BEAD BALL BRACELET</h4>
+                                <P class="goldcategory">Yellow Gold</P>
+                                <p class="goldPrice">$4,375.00</p>
+                                </div>
+                            </div>
+                                <div class="detailsCard1">
+                                <div class="imagePart">
+                                 <div class="hoverImage"></div>
+                                </div>
+                                <div class="textPart">
+                                <h4>LAB GROWN 3.21CT PEAR DIAMOND WITH BEAD BALL BRACELET</h4>
+                                <P class="goldcategory">Yellow Gold</P>
+                                <p class="goldPrice">$4,375.00</p>
+                                </div>
+                            </div>                            
+                            <div class="detailsCard1">
+                                <div class="imagePart">
+                                 <div class="hoverImage"></div>
+                                </div>
+                                <div class="textPart">
+                                <h4>LAB GROWN 3.21CT PEAR DIAMOND WITH BEAD BALL BRACELET</h4>
+                                <P class="goldcategory">Yellow Gold</P>
+                                <p class="goldPrice">$4,375.00</p>
+                                </div>
+                            </div>                            
+                            <div class="detailsCard1">
+                                <div class="imagePart">
+                                 <div class="hoverImage"></div>
+                                </div>
+                                <div class="textPart">
+                                <h4>LAB GROWN 3.21CT PEAR DIAMOND WITH BEAD BALL BRACELET</h4>
+                                <P class="goldcategory">Yellow Gold</P>
+                                <p class="goldPrice">$4,375.00</p>
+                                </div>
+                            </div>                            
+                            <div class="detailsCard1">
+                                <div class="imagePart">
+                                 <div class="hoverImage"></div>
+                                </div>
+                                <div class="textPart">
+                                <h4>LAB GROWN 3.21CT PEAR DIAMOND WITH BEAD BALL BRACELET</h4>
+                                <P class="goldcategory">Yellow Gold</P>
+                                <p class="goldPrice">$4,375.00</p>
+                                </div>
+                            </div>                            
+                            <div class="detailsCard1">
+                                <div class="imagePart">
+                                 <div class="hoverImage"></div>
+                                </div>
+                                <div class="textPart">
+                                <h4>LAB GROWN 3.21CT PEAR DIAMOND WITH BEAD BALL BRACELET</h4>
+                                <P class="goldcategory">Yellow Gold</P>
+                                <p class="goldPrice">$4,375.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+        </section>
+    </template>
+
+    <template id="s_shopcollectionsilver_snippet" name="shop collection silver">
+        <section class="shopCollectionSilver">
+                    <div class="container">
+                        <div class="shopCollectionSection">
+                        <div class="collectionDetails">
+                            <div class="detailsCard1">
+                                <div>
+                                 <div class="hoverImage"></div>
+                                </div>
+                                <div>
+                                <h4>LAB GROWN 2.50CTW DIAMOND BAGUETTE BRIDAL ENGAGEMENT RING</h4>
+                                <P class="goldcategory">White Gold</P>
+                                <p class="goldPrice">$4,625.00</p>
+                                </div>
+                            </div>
+                            <div class="detailsCard1">
+                                <div>
+                                 <div class="hoverImage"></div>
+                                </div>
+                                <div>
+                                <h4>LAB GROWN 2.50CTW DIAMOND BAGUETTE BRIDAL ENGAGEMENT RING</h4>
+                                <P class="goldcategory">White Gold</P>
+                                <p class="goldPrice">$4,625.00</p>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="collectionTitle text-center">
+                            <div class="Titlebimg">
+                            <h2 class="mb-5">BAGUETTE BRIDAL</h2>
+                            <a href="#" class="button arrow mb-5">SHOP NOW</a>
+                            <div>
+                            <img alt="jewellery" src="/website_sr/static/src/images/sr_img.jpg" />
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+        </section>
+    </template>
+
+    <template id="s_environment_snippet" name="environment">
+        <section class="environment">
+                    <div class="container">
+                        <div class="environmentSection">
+                            <div class="environmentTitle">
+                                <h2 class="mb-3">Committed on Sustainability</h2>
+                                <p>For our planet, our home, and our future</p>
+                            </div>
+                            <div class="environmentCards">
+                                <div class="environmentCard1">
+                                    <img alt="" src="/website_sr/static/src/images/mulondon-certifications-onepercent_400x.png" />
+                                    <p class="text-center mb-0 mt-3 environmentCardsP">1% for the Planet</p>      
+                                </div>
+                                <div class="environmentCard1">
+                                    <img alt="" src="/website_sr/static/src/images/BM_Logo_v02_400x.png" />
+                                    <p class="text-center mb-0 mt-3 environmentCardsP">Certified Butterfly Mark on ESG+</p>      
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+    </template>
+
+    <template id="s_leftrightsections_snippet" name="left right">
+        <section class="leftrightSections">
+                    <div class="container">
+                        <div class="leftImagerightText">
+                            <div class="leftImage">
+                                <img alt="img" src="/website_sr/static/src/images/haurte.jpg" />
+                            </div>
+                            <div class="rightText">
+                                <h2 class="mb-3">Haute Couture</h2>
+                                <p  class="mb-3">Revealing the beauty of lab grown diamonds in high jewelry. From the house of inspired designers, each bringing a unique taste in design and excellent quality in craftsmanship. A preview of our stunning atelier designs captivating every moment in time.</p>
+                                <a href="#" class="button arrow">DISCOVER MORE</a>
+                            </div>
+                        </div>
+                        <div class="leftTextrightImage">
+                            <div class="leftText">
+                                <h2 class="mb-3">Haute Couture</h2>
+                                <p  class="mb-3">Revealing the beauty of lab grown diamonds in high jewelry. From the house of inspired designers, each bringing a unique taste in design and excellent quality in craftsmanship. A preview of our stunning atelier designs captivating every moment in time.</p>
+                                <a href="#" class="button arrow">DISCOVER MORE</a>
+                            </div>
+                            <div class="rightImage">
+                                <img alt="img" src="/website_sr/static/src/images/plant.jpg" />
+                            </div>
+                        </div>
+                        <div class="leftImagerightText">
+                            <div class="leftImage">
+                                <img alt="img" src="/website_sr/static/src/images/haurte.jpg" />
+                            </div>
+                            <div class="rightText">
+                                <h2 class="mb-3">Haute Couture</h2>
+                                <p  class="mb-3">Revealing the beauty of lab grown diamonds in high jewelry. From the house of inspired designers, each bringing a unique taste in design and excellent quality in craftsmanship. A preview of our stunning atelier designs captivating every moment in time.</p>
+                                <a href="#" class="button arrow">DISCOVER MORE</a>
+                            </div>
+                        </div>
+                         <div class="leftTextrightImage">
+                            <div class="leftText">
+                                <h2 class="mb-3">Haute Couture</h2>
+                                <p  class="mb-3">Revealing the beauty of lab grown diamonds in high jewelry. From the house of inspired designers, each bringing a unique taste in design and excellent quality in craftsmanship. A preview of our stunning atelier designs captivating every moment in time.</p>
+                                <a href="#" class="button arrow">DISCOVER MORE</a>
+                            </div>
+                            <div class="rightImage">
+                                <img alt="img" src="/website_sr/static/src/images/plant.jpg" />
+                            </div>
+                        </div>
+                        <div class="leftImagerightText">
+                            <div class="leftImage">
+                                <img alt="img" src="/website_sr/static/src/images/haurte.jpg" />
+                            </div>
+                            <div class="rightText">
+                                <h2 class="mb-3">Haute Couture</h2>
+                                <p  class="mb-3">Revealing the beauty of lab grown diamonds in high jewelry. From the house of inspired designers, each bringing a unique taste in design and excellent quality in craftsmanship. A preview of our stunning atelier designs captivating every moment in time.</p>
+                                <a href="#" class="button arrow">DISCOVER MORE</a>
+                            </div>
+                        </div>
+                        <div class="leftTextrightImage">
+                            <div class="leftText">
+                                <h2 class="mb-3">Haute Couture</h2>
+                                <p  class="mb-3">Revealing the beauty of lab grown diamonds in high jewelry. From the house of inspired designers, each bringing a unique taste in design and excellent quality in craftsmanship. A preview of our stunning atelier designs captivating every moment in time.</p>
+                                <a href="#" class="button arrow">DISCOVER MORE</a>
+                            </div>
+                            <div class="rightImage">
+                                <img alt="img" src="/website_sr/static/src/images/plant.jpg" />
+                            </div>
+                        </div>
+                        <div class="popUp">
+                            <div class="container">
+                                <div class="popUpSection">
+                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+    </template>
+
+    <template id="s_textbanner_snippet" name="text banner">
+        <section class="lookbook">
+            <div class="container">
+                <div class="lookbookSection">
+                    <h1>Lookbook</h1>
+                    <p>Smiling Rocks Guide to Style our Lab Grown Diamond Collections!</p>
+                </div>  
+            </div>
+        </section>
+    </template>
+
+    <template id="s_textbanner_snippet" name="text banner">
+        <section class="lookbook">
+            <div class="container">
+                <div class="lookbookSection">
+                    <h1>Lookbook</h1>
+                    <p>Smiling Rocks Guide to Style our Lab Grown Diamond Collections!</p>
+                </div>  
+            </div>
+        </section>
+    </template>
+
+    <template id="s_subtitleHeadingbanner_snippet" name="subtile heading banner">
+        <section class="press">
+            <div class="container">
+                <div class="pressBanner">
+                    <p>PRESS</p>
+                    <h1>Smiling Rocks in the News</h1>
+                </div>  
+            </div>
+        </section>
+    </template>
+
+
+    <template id="snippets" inherit_id="website.snippets">
+        <xpath expr="//t[@id='event_upcoming_snippet_hook']" position="after">
+            <t t-snippet="website_sr.s_test_snippet"  string="Feature Card" t-thumbnail=""/>
+            <t t-snippet="website_sr.s_lefttext_rightbigimage_snippet"  string="Big Right Image" t-thumbnail=""/>
+            <t t-snippet="website_sr.s_shopHome_snippet"  string="Shop Home" t-thumbnail=""/>
+            <t t-snippet="website_sr.s_bgimagetext_snippet"  string="Big Left Image" t-thumbnail=""/>
+            <t t-snippet="website_sr.s_shopcollection_snippet"  string="Shop Collection" t-thumbnail=""/>
+            <t t-snippet="website_sr.s_shopcollectionsilver_snippet"  string="Shop Collection Gold" t-thumbnail=""/>
+            <t t-snippet="website_sr.s_environment_snippet"  string="environment" t-thumbnail=""/>
+            <t t-snippet="website_sr.s_leftrightsections_snippet"  string="left right sections" t-thumbnail=""/>
+            <t t-snippet="website_sr.s_textbanner_snippet"  string="text banner" t-thumbnail=""/>
+            <t t-snippet="website_sr.s_subtitleHeadingbanner_snippet"  string="subtitle heading banner" t-thumbnail=""/>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="sr_footer_opt" inherit_id="website.snippet_options" name="srFooter - Option">
+        <xpath expr="//we-select[@data-variable='footer-template']" position="inside">
+            <we-button title="sr"
+                data-customize-website-views="website_sr.footer"
+                data-customize-website-variable="'srFooter'"
+                data-img="/website_sr/static/src/images/bracelet1.jpg"/>
+        </xpath>
+    </template>
+
+    <record id="website_sr.footer" model="ir.ui.view">
+        <field name="inherit_id" ref="website.layout"/>
+        <field name="key">website_sr.footer</field>
+        <field name="mode">extension</field>
+        <field name="name">sr Footer</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo footermain" t-ignore="true" t-if="not no_footer">
+                    <section class="s_text_block x_bg_accent_img" data-snippet="s_text_block" data-name="Text">
+                    <div class="footerSection">
+                        <div class="container">
+                            <div class="footercontent">
+                                <div class="signup-section">
+                                    <h2>Let's Smile Together</h2>
+                                    <form class="signup-form" action="#" method="post">
+                                        <input type="email" name="email" id="email" placeholder="Enter your email" />
+                                        <a href="#" class="button arrow" type="submit">Sign Up</a>
+                                    </form>
+                                    <p>Get early access to new products and special offers!</p>
+                                </div>
+                                <div class="footerBottom">
+                                    <div class="socialLogos">
+                                        <div class="logoItem">
+                                            <div class="logo1">
+                                                <a href="#"><img alt="logo" src="/website_sr/static/src/images/facebook-f.svg" /></a>
+                                            </div>
+                                            <div class="logo1">
+                                                <a href="#"><img alt="logo" src="/website_sr/static/src/images/linkedin-in.svg" /></a>
+                                            </div>
+                                            <div class="logo1">
+                                                <a href="#"><img alt="logo" src="/website_sr/static/src/images/x-twitter.svg" /></a>
+                                            </div>
+                                            <div class="logo1">
+                                                <a href="#"><img alt="logo" src="/website_sr/static/src/images/instagram.svg" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="textContent">
+                                        <div class="inLinks">
+                                            <a href="#">CONTACT US</a>
+                                        </div>
+                                        <div class="inLinks">
+                                            <a href="#">FAQ</a>
+                                        </div>
+                                        <div class="inLinks">
+                                            <a href="#">SERVICE POLICY</a>
+                                        </div>
+                                        <div class="inLinks">
+                                            <a href="#">PRESS</a>
+                                        </div>
+                                    </div>
+                                    <div class="terms">
+                                        <div>
+                                            <p>© 2024, Smiling Rocks</p>
+                                        </div>
+                                        <div class="inLinks">
+                                              <a href="#">Terms and Privacy</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Footer Shape -->
+                        <!-- <div class="w-100 position-relative no">
+                            <img class="w-100" src="/web/image/website_sr.qs_footer_bg_shape" alt="Background Shape"/>
+                            <div class="position-absolute x_ft_shape">@All Rights Reserved.</div>
+                        </div> -->
+                    </section>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

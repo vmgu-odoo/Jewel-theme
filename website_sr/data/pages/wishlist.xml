@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="wishlist_test" name="Wishlist">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <div class="lookbook">
+                    <div class="container">
+                        <div class="lookbookSection">
+                            <h1>My Wishlist</h1>
+                        </div>  
+                    </div>
+                </div>
+                <div class="wishlistpage">
+                    <div class="container">
+                        <div class="wishlistContent">
+                            <div class="collectionDetails">
+                                <div class="detailsCard1">
+                                    <div class="imagePart">
+                                    <div class="hoverImage"></div>
+                                    </div>
+                                    <div class="textPart">
+                                    <h4>LAB GROWN 2.50CTW DIAMOND BAGUETTE BRIDAL ENGAGEMENT RING</h4>
+                                    <P class="goldcategory">White Gold</P>
+                                    <p class="goldPrice">$4,625.00</p>
+                                    <a href="#" class="arrow button">ADD TO CART</a>
+                                    </div>
+                                </div>
+                                <div class="detailsCard1">
+                                    <div class="imagePart">
+                                    <div class="hoverImage"></div>
+                                    </div>
+                                    <div class="textPart">
+                                    <h4>LAB GROWN 2.50CTW DIAMOND BAGUETTE BRIDAL ENGAGEMENT RING</h4>
+                                    <P class="goldcategory">White Gold</P>
+                                    <p class="goldPrice">$4,625.00</p>
+                                    <a href="#" class="arrow button">ADD TO CART</a>
+                                    </div>
+                                </div>  
+                                <div class="detailsCard1">
+                                    <div class="imagePart">
+                                    <div class="hoverImage"></div>
+                                    </div>
+                                    <div class="textPart">
+                                    <h4>LAB GROWN 2.50CTW DIAMOND BAGUETTE BRIDAL ENGAGEMENT RING</h4>
+                                    <P class="goldcategory">White Gold</P>
+                                    <p class="goldPrice">$4,625.00</p>
+                                    <a href="#" class="arrow button">ADD TO CART</a>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </t>
+    </template>
+    
+    
+    
+    <record id="wishlist_page" model="website.page">
+        <field name="name">Wishlist</field>
+        <field name="is_published" eval="True"/>
+        <field name="url">/pages/wishlist</field>
+        <field name="header_overlay" eval="True"/>
+        <field name="view_id" ref="wishlist_test"/>
+        <field name="track" eval="True"/>
+    </record>
+</odoo>

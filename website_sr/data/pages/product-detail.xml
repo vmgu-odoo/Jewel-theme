@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="productdetail_test" name="Product Detail">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <div class="productDetail">
+                    <div class="container">
+                        <div class="productDetailSection">
+                            <div class="productTopDetail">
+                                <div class="leftImage">
+                                    <div class="images-column">
+                                        <img src="/website_sr/static/src/images/LGB1.jpg" alt="Product Image 1" onclick="changeImage(this)" />
+                                        <img src="/website_sr/static/src/images/bracelet.jpg" alt="Product Image 2" onclick="changeImage(this)" />
+                                        <img src="/website_sr/static/src/images/braceletwear1.jpeg" alt="Product Image 3" onclick="changeImage(this)" />
+                                        <img src="/website_sr/static/src/images/silverring1.jpg" alt="Product Image 3" onclick="changeColorByImage(this.src)" />
+                                        <img src="/website_sr/static/src/images/earings.jpg" alt="Product Image 3" onclick="changeColorByImage(this.src)" />
+                                        <img src="/website_sr/static/src/images/bracelet1.jpg" alt="Product Image 3" onclick="changeColorByImage(this.src)" />
+                                    </div>
+                                    <div class="big-image" id="big-image">
+                                        <img id="bigImage" src="/website_sr/static/src/images/earings.jpg" alt="Product Image" />
+                                    </div>
+                                </div>
+                                <div class="product-details">
+                                    <h2>Drizzle 0.51ct Lab Grown Diamond Ring R-00363WHT</h2>
+                                    <p>Slip this open Drizzle Ring from Smiling Rock's iconic collection- Drizzle. It’s an exquisite ring with diamonds all around the ring. The ring creates a wide space to decorate your fingers as much as possible! Featured in lab grown diamonds set in 14K gold, this ring is perfect for your best times.</p>
+                                    <div class="colorSelection">
+                                        <div class="titlepoint">
+                                            <p>14K METAL COLOR:</p>
+                                        </div>
+                                        <div class="selectColor">
+                                            <div class="colorName">
+                                                <p id="color-name">White Gold</p>
+                                            </div>   
+                                            <div class="color-selector">
+                                                <div class="color-option white" onclick="changeColor('white')"> </div>
+                                                <div class="color-option rosa" onclick="changeColor('rosa')"> </div>
+                                                <div class="color-option yellow" onclick="changeColor('yellow')"> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sizecarat">
+                                        <div class="container">
+                                            <div class="sizecaratsection">
+                                                <div class="form-group flex-container">
+                                                    <input type="text" name="phone_number" placeholder="SIZE:" />
+                                                    <select id="category" name="category">
+                                                        <option value="">7</option>
+                                                        <option value="option1">5</option>
+                                                        <option value="option2">5.5</option>
+                                                        <option value="option3">6</option>
+                                                        <option value="option4">6.5</option>
+                                                        <option value="option5">7</option>
+                                                        <option value="option6">7.5</option>
+                                                        <option value="option7">8</option>
+                                                        <option value="option8">8.5</option>
+                                                        <option value="option9">9</option>
+                                                        <option value="option10">9.5</option>
+                                                        <option value="option11">10</option>
+                                                        <option value="option12">10.5</option>
+
+                                                    </select>   
+                                                </div>  
+                                                <div class="form-group flex-container">
+                                                    <input type="text" name="phone_number" placeholder="CARAT:" />
+                                                    <select id="category" name="category">
+                                                        <option value="">0.51</option>
+                                                        <option value="option1">0.51</option>
+                                                    </select>   
+                                                </div>                                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="productPrice">
+                                        <div class="container">
+                                            <div class="ProdcutPriceValue">
+                                                <p>$1,125.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="twobuttons">
+                                        <a href="#" class="button arrow">Add to Cart</a>
+                                        <a href="#" class="button arrow">Buy Now</a>
+                                    </div>
+                                    <div class="services">
+                                        <div class="servicePoint">
+                                            <div class="servicepoints">
+                                                <img alt="image" src="/website_sr/static/src/images/servicepoint1.png" />
+                                                <p>Certified Sustainable Brand</p>
+                                            </div>
+                                            <div class="servicepoints">
+                                                <img alt="image" src="/website_sr/static/src/images/servicepoint1.png" />
+                                                <p>Lifetime Warranty</p>
+                                            </div>
+                                            <div class="servicepoints">
+                                                <img alt="image" src="/website_sr/static/src/images/servicepoint1.png" />
+                                                <p>24 Hours Customer Service</p>
+                                            </div>
+                                        </div>
+                                        <div class="otherdetails">
+                                            <p class="otherdetailstitle">DIAMONDS ARE FOR EVERYONE ®</p>
+                                            <p>Smiling Rocks aims to create a Chain of Smile and will donate 3% of your purchase to your choice of charity during check-out. Learn More</p>
+                                            <p>Custom Jewelry: If you would like to customize this jewelry, please email us at order@smilingrocks.com.</p>
+                                        </div>
+                                    </div>
+                                    <div class="accordion">
+                                        <h3>Tell Me More</h3>
+                                        <div class="accordion-item active">
+                                            <div class="accordion-header">
+                                                PRODUCT DETAILS <span class="icon">-</span>
+                                            </div>
+                                            <div class="accordion-content">
+                                                <div class="detail-list">
+                                                    <div class="list-left">
+                                                        <div class="list-inner">
+                                                            <div class="list-inner-left">
+                                                                <p>Stock Number:</p>
+                                                            </div>
+                                                            <div class="list-inner-right">
+                                                                <p>SRR-00363WHT</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-inner">
+                                                            <div class="list-inner-left">
+                                                                <p>Stock Number:</p>
+                                                            </div>
+                                                            <div class="list-inner-right">
+                                                                <p>SRR-00363WHT</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-inner">
+                                                            <div class="list-inner-left">
+                                                                <p>Stock Number:</p>
+                                                            </div>
+                                                            <div class="list-inner-right">
+                                                                <p>SRR-00363WHT</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-inner">
+                                                            <div class="list-inner-left">
+                                                                <p>Stock Number:</p>
+                                                            </div>
+                                                            <div class="list-inner-right">
+                                                                <p>SRR-00363WHT</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-inner">
+                                                            <div class="list-inner-left">
+                                                                <p>Stock Number:</p>
+                                                            </div>
+                                                            <div class="list-inner-right">
+                                                                <p>SRR-00363WHT</p>
+                                                            </div>
+                                                        </div>                                                        
+                                                    </div>
+                                                    <div class="list-right">
+                                                        <div class="list-inner">
+                                                            <div class="list-inner-left">
+                                                                <p>Stock Number:</p>
+                                                            </div>
+                                                            <div class="list-inner-right">
+                                                                <p>SRR-00363WHT</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-inner">
+                                                            <div class="list-inner-left">
+                                                                <p>Stock Number:</p>
+                                                            </div>
+                                                            <div class="list-inner-right">
+                                                                <p>SRR-00363WHT</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-inner">
+                                                            <div class="list-inner-left">
+                                                                <p>Stock Number:</p>
+                                                            </div>
+                                                            <div class="list-inner-right">
+                                                                <p>SRR-00363WHT</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-inner">
+                                                            <div class="list-inner-left">
+                                                                <p>Stock Number:</p>
+                                                            </div>
+                                                            <div class="list-inner-right">
+                                                                <p>SRR-00363WHT</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-inner">
+                                                            <div class="list-inner-left">
+                                                                <p>Stock Number:</p>
+                                                            </div>
+                                                            <div class="list-inner-right">
+                                                                <p>SRR-00363WHT</p>
+                                                            </div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <p class="extraPara">Total carat weight (ctw) represents the approximate total weight of all diamonds in each jewelry and may vary from 0.48 to 0.54 carats. All diamonds are lab grown diamonds.</p>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-header">
+                                                STYLE AND FIT <span class="icon">+</span>
+                                            </div>
+                                            <div class="accordion-content">
+                                                Content for section 2 goes here.
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-header">
+                                                SHIPPING AND RETURNS <span class="icon">+</span>
+                                            </div>
+                                            <div class="accordion-content">
+                                                We ship all over the USA only. International shipping is not available at the moment. We offer a free return and refund up to 30 days after your purchase. For more please read our Shipping and Returns Policy
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="similarProduct">
+                    <div class="container">
+                        <h2>Complete The Look</h2>
+                        <div class="similarList">
+                            <div class="detailsCard1">
+                                <div class="imagePart">
+                                 <div class="hoverImage"></div>
+                                </div>
+                                <div class="textPart">
+                                <h4>LAB GROWN 3.21CT PEAR DIAMOND WITH BEAD BALL BRACELET</h4>
+                                <P class="goldcategory">Yellow Gold</P>
+                                <p class="goldPrice">$4,375.00</p>
+                                </div>
+                            </div>
+                            <div class="detailsCard1">
+                                <div class="imagePart">
+                                 <div class="hoverImage"></div>
+                                </div>
+                                <div class="textPart">
+                                <h4>LAB GROWN 3.21CT PEAR DIAMOND WITH BEAD BALL BRACELET</h4>
+                                <P class="goldcategory">Yellow Gold</P>
+                                <p class="goldPrice">$4,375.00</p>
+                                </div>
+                            </div>
+                            <div class="detailsCard1">
+                                <div class="imagePart">
+                                 <div class="hoverImage"></div>
+                                </div>
+                                <div class="textPart">
+                                <h4>LAB GROWN 3.21CT PEAR DIAMOND WITH BEAD BALL BRACELET</h4>
+                                <P class="goldcategory">Yellow Gold</P>
+                                <p class="goldPrice">$4,375.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="featureCard">
+                    <div class="container">
+                        <div>
+                            <h2 class="text-center">The Smiling Rocks Difference</h2>
+                            <div class="featureCardDiscription">
+                                <div class="featureCard1 text-center">
+                                    <img src="/website_sr/static/src/images/icon1banner.png" alt="image"/>
+                                    <p>Lab Grown Diamond Jewelry</p>
+                                    <a href="#" class="button arrow">Learn More</a>
+                                </div>
+                                <div class="featureCard2 text-center">
+                                    <img src="/website_sr/static/src/images/icon2banner.gif" alt="image"/>
+                                    <p>3% of each purchase goes to charity</p>
+                                    <a href="#" class="button arrow">Learn More</a>
+                                </div>
+                                 <div class="featureCard3 text-center">
+                                    <img src="/website_sr/static/src/images/icon3banner.png" alt="image"/>
+                                    <p>Laser inscribed diamonds with Smiling Rocks logo</p>
+                                    <a href="#" class="button arrow">Learn More</a>
+                                </div>
+                                 <div class="featureCard4 text-center">
+                                    <img src="/website_sr/static/src/images/icon1banner.png" alt="image"/>
+                                    <p>ESG+ Certified Brand Butterfly Mark</p>
+                                    <a href="#" class="button arrow">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <script src="/website_sr/static/src/js/script.js"></script>
+        </t>
+    </template>
+    
+    
+    
+    <record id="productdetail_page" model="website.page">
+        <field name="name">Product Detail</field>
+        <field name="is_published" eval="True"/>
+        <field name="url">/pages/product-detail</field>
+        <field name="header_overlay" eval="True"/>
+        <field name="view_id" ref="productdetail_test"/>
+        <field name="track" eval="True"/>
+    </record>
+</odoo>

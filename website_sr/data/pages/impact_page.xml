@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="impact_test" name="Impact">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+            <div class="impactPage">
+                <div class="impactBanner">
+                    <div class="container">
+                        <div class="impactBannerInner">
+                            <div class="impactBannerText">
+                                <img alt="bannerlogo" src="/website_sr/static/src/images/treesorglogo.png" />
+                                <h1>Together We Can Make An Impact</h1>
+                                <p>Our purpose is to building a chain of smile through innovative lab grown diamonds, sustainable luxury and giving back to the community. We aim to spread smiles around the world with your contribution. Here's how we're working to make the world a better place.</p>
+                            </div>
+                            <div class="impactBannerImage">
+                                <img alt="bannerimage" src="/website_sr/static/src/images/treeorgbanner.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="leftrightSectionsImpact">
+                    <div class="container">
+                        <div class="leftrightSectionsTitle">
+                            <h2>A REASON TO SMILE</h2>
+                            <p>For every purchase you make, Smiling Rocks Foundation will donate 3% to your choice of the following charity categories. Smiling Rocks Foundation is an organization qualified by the Internal Revenue Service as a tax exempt charitable foundation under 501(c)(3) of the Internal Revenue Code.</p>
+                        </div>
+                        <div class="leftImagerightText">
+                            <div class="leftImage">
+                                <img alt="img" src="/website_sr/static/src/images/haurte.jpg" />
+                            </div>
+                            <div class="rightText">
+                                <div class="leftTextDetails">
+                                    <div class="logoTitle">
+                                        <img alt="logo" src="/website_sr/static/src/images/icon1banner.png"  />
+                                        <h2 class="mb-3">Education Support</h2>
+                                        <p class="mb-3 text-center">Education is the key to a better life. There are many children who lack access to education which can lead to lifelong struggles. Your support will go to charities that provide funding and resources to build schools, provide supplies and more.</p>
+                                    </div>    
+                                    <div class="detailsPointers">
+                                            <div class="detailsPointers1">
+                                                <p class="leftTextInsideHeading">11</p>
+                                                <p>Yearly Scholarships</p>
+                                            </div>
+                                            <div class="detailsPointers2">
+                                                <p class="leftTextInsideHeading">8</p>
+                                                <p>Digital Library</p>
+                                            </div>
+                                            <div class="detailsPointers3">
+                                                <p class="leftTextInsideHeading">100 Enrolled</p>
+                                                <p>in Female-led Skill Training Program</p>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="leftTextlogo">
+                                    <div>
+                                        <img alt="logo" src="/website_sr/static/src/images/education1.jpg" />
+                                    </div>
+                                    <div>
+                                        <img alt="logo" src="/website_sr/static/src/images/education1.jpg" />
+                                    </div>
+                                    <div>
+                                        <img alt="logo" src="/website_sr/static/src/images/education1.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="leftTextrightImage">
+                            <div class="leftText text-center">
+                                <div class="leftTextDetails">
+                                    <div class="logoTitle">
+                                        <img alt="logo" src="/website_sr/static/src/images/icon1banner.png"  />
+                                        <h2 class="mb-3">Education Support</h2>
+                                        <p class="mb-3 text-center">Education is the key to a better life. There are many children who lack access to education which can lead to lifelong struggles. Your support will go to charities that provide funding and resources to build schools, provide supplies and more.</p>
+                                    </div>    
+                                    <div class="detailsPointers">
+                                            <div class="detailsPointers1">
+                                                <p class="leftTextInsideHeading">11</p>
+                                                <p>Yearly Scholarships</p>
+                                            </div>
+                                            <div class="detailsPointers2">
+                                                <p class="leftTextInsideHeading">8</p>
+                                                <p>Digital Library</p>
+                                            </div>
+                                            <div class="detailsPointers3">
+                                                <p class="leftTextInsideHeading">100 Enrolled</p>
+                                                <p>in Female-led Skill Training Program</p>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="leftTextlogo">
+                                    <div>
+                                        <img alt="logo" src="/website_sr/static/src/images/education1.jpg" />
+                                    </div>
+                                    <div>
+                                        <img alt="logo" src="/website_sr/static/src/images/education1.jpg" />
+                                    </div>
+                                    <div>
+                                        <img alt="logo" src="/website_sr/static/src/images/education1.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rightImage">
+                                <img alt="img" src="/website_sr/static/src/images/plant.jpg" />
+                            </div>
+                        </div>
+                        <div class="leftImagerightText">
+                            <div class="leftImage">
+                                <img alt="img" src="/website_sr/static/src/images/haurte.jpg" />
+                            </div>
+                            <div class="rightText">
+                                <div class="leftTextDetails">
+                                    <div class="logoTitle">
+                                        <img alt="logo" src="/website_sr/static/src/images/icon1banner.png"  />
+                                        <h2 class="mb-3">Education Support</h2>
+                                        <p class="mb-3 text-center">Education is the key to a better life. There are many children who lack access to education which can lead to lifelong struggles. Your support will go to charities that provide funding and resources to build schools, provide supplies and more.</p>
+                                    </div>    
+                                    <div class="detailsPointers">
+                                            <div class="detailsPointers1">
+                                                <p class="leftTextInsideHeading">11</p>
+                                                <p>Yearly Scholarships</p>
+                                            </div>
+                                            <div class="detailsPointers2">
+                                                <p class="leftTextInsideHeading">8</p>
+                                                <p>Digital Library</p>
+                                            </div>
+                                            <div class="detailsPointers3">
+                                                <p class="leftTextInsideHeading">100 Enrolled</p>
+                                                <p>in Female-led Skill Training Program</p>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="leftTextlogo">
+                                    <div>
+                                        <img alt="logo" src="/website_sr/static/src/images/education1.jpg" />
+                                    </div>
+                                    <div>
+                                        <img alt="logo" src="/website_sr/static/src/images/education1.jpg" />
+                                    </div>
+                                    <div>
+                                        <img alt="logo" src="/website_sr/static/src/images/education1.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="leftTextrightImage">
+                            <div class="leftText text-center">
+                                <div class="leftTextDetails">
+                                    <div class="logoTitle">
+                                        <img alt="logo" src="/website_sr/static/src/images/icon1banner.png"  />
+                                        <h2 class="mb-3">Education Support</h2>
+                                        <p class="mb-3 text-center">Education is the key to a better life. There are many children who lack access to education which can lead to lifelong struggles. Your support will go to charities that provide funding and resources to build schools, provide supplies and more.</p>
+                                    </div>    
+                                    <div class="detailsPointers">
+                                            <div class="detailsPointers1">
+                                                <p class="leftTextInsideHeading">11</p>
+                                                <p>Yearly Scholarships</p>
+                                            </div>
+                                            <div class="detailsPointers2">
+                                                <p class="leftTextInsideHeading">8</p>
+                                                <p>Digital Library</p>
+                                            </div>
+                                            <div class="detailsPointers3">
+                                                <p class="leftTextInsideHeading">100 Enrolled</p>
+                                                <p>in Female-led Skill Training Program</p>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="leftTextlogo">
+                                    <div>
+                                        <img alt="logo" src="/website_sr/static/src/images/education1.jpg" />
+                                    </div>
+                                    <div>
+                                        <img alt="logo" src="/website_sr/static/src/images/education1.jpg" />
+                                    </div>
+                                    <div>
+                                        <img alt="logo" src="/website_sr/static/src/images/education1.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rightImage">
+                                <img alt="img" src="/website_sr/static/src/images/plant.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="titleImgText">
+                    <div class="container">
+                        <div class="titleImgTextSection">
+                            <img alt="main image" src="/website_sr/static/src/images/jsf.jpg" />
+                            <div class="textSection">
+                                <img alt="logo" src="/website_sr/static/src/images/joint-sdg-fund-logo_175x.png" />
+                                <h3>Keeping The Promise</h3>
+                                <p>Together, we will create an unstoppable force in achieving the Sustainable Development Goals. With just nine years left the time has come to deliver on our 2030 promise.</p>
+                                <p>Together, we can deliver the extraordinary and we must keep our promise for the Global Goals and create the world we want to see today and for our future.</p>
+                                <p>Donate Now Directly to UNSDG fund!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote">
+                    <div class="contanier">
+                        <div class="quoteSection">
+                            <h3>“Creating Smiling Rocks has been our dream and life mission as our way of spreading smiles around the world and to help make our world a better place.”</h3>
+                            <p>- Smiling Rocks Founders</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="exploreCards">
+                    <div class="container">
+                        <div class="exploreCardsListing">
+                            <h2>Explore More</h2>
+                            <div class="twocards">
+                                <div class="explorecard1">
+                                    <img alt="image" src="/website_sr/static/src/images/about.jpg" />
+                                    <h3>About Us</h3>
+                                    <p>The founders of Smiling Rocks have a mission to spread smiles through supporting different charity organizations.</p>
+                                     <a href="#" class="button arrow">LEARN MORE</a>
+                                </div>
+                                <div class="explorecard2">
+                                    <img alt="image" src="/website_sr/static/src/images/impact_report.jpg" />
+                                    <h3>Impact Report 2020</h3>
+                                    <p>Read our latest Sustainability Impact Report and know more about our efforts towards a better future.</p>
+                                     <a href="#" class="button arrow">READ NOW</a>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            </div>  
+        </t>
+    </template>
+    
+    
+    
+    <record id="impact_page" model="website.page">
+        <field name="name">Impact</field>
+        <field name="is_published" eval="True"/>
+        <field name="url">/pages/lab-grown-diamond-jewelry-impact</field>
+        <field name="header_overlay" eval="True"/>
+        <field name="view_id" ref="impact_test"/>
+        <field name="track" eval="True"/>
+    </record>
+</odoo>

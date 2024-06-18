@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="lookbook_test" name="Lookbook">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <div class="lookbook">
+                    <div class="container">
+                        <div class="lookbookSection">
+                            <h1>Lookbook</h1>
+                            <p>Smiling Rocks Guide to Style our Lab Grown Diamond Collections!</p>
+                        </div>  
+                    </div>
+                </div>
+                <div class="textbgImage">
+                    <div class="container">
+                        <div class="textbgImageSection">
+                        <div class="textbg">
+                            <p>LAB GROWN DIAMONDS</p>
+                            <h2>FRAME</h2>
+                            <p class="bottomP">FRAME THE ELEGANCE OF YOUR STYLE</p>
+                            <a href="#" class="button arrow">Discover More</a>
+                        </div>
+                        <div class="textbgImageImg">
+                            <img alt="jewellery" src="/website_sr/static/src/images/bgImage.png" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bgImageText">
+                    <div class="container">
+                        <div class="textbgImageSection">
+                        <div class="textbgImageImg">
+                            <img alt="jewellery" src="/website_sr/static/src/images/engagement.jpg" />
+                        </div>
+                        <div class="textbg">
+                            <h2 class="mb-5">SMILING BRIDES</h2>
+                            <a href="#" class="button arrow">ENGAGEMENT COLLECTION</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="textbgImage">
+                    <div class="container">
+                        <div class="textbgImageSection">
+                        <div class="textbg">
+                            <p>LAB GROWN DIAMONDS</p>
+                            <h2>FRAME</h2>
+                            <p class="bottomP">FRAME THE ELEGANCE OF YOUR STYLE</p>
+                            <a href="#" class="button arrow">Discover More</a>
+                        </div>
+                        <div class="textbgImageImg">
+                            <img alt="jewellery" src="/website_sr/static/src/images/bgImage.png" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="bgImageText">
+                    <div class="container">
+                        <div class="textbgImageSection">
+                        <div class="textbgImageImg">
+                            <img alt="jewellery" src="/website_sr/static/src/images/engagement.jpg" />
+                        </div>
+                        <div class="textbg">
+                            <h2 class="mb-5">SMILING BRIDES</h2>
+                            <a href="#" class="button arrow">ENGAGEMENT COLLECTION</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="textbgImage">
+                    <div class="container">
+                        <div class="textbgImageSection">
+                        <div class="textbg">
+                            <p>LAB GROWN DIAMONDS</p>
+                            <h2>FRAME</h2>
+                            <p class="bottomP">FRAME THE ELEGANCE OF YOUR STYLE</p>
+                            <a href="#" class="button arrow">Discover More</a>
+                        </div>
+                        <div class="textbgImageImg">
+                            <img alt="jewellery" src="/website_sr/static/src/images/bgImage.png" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="bgImageText">
+                    <div class="container">
+                        <div class="textbgImageSection">
+                        <div class="textbgImageImg">
+                            <img alt="jewellery" src="/website_sr/static/src/images/engagement.jpg" />
+                        </div>
+                        <div class="textbg">
+                            <h2 class="mb-5">SMILING BRIDES</h2>
+                            <a href="#" class="button arrow">ENGAGEMENT COLLECTION</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="textbgImage">
+                    <div class="container">
+                        <div class="textbgImageSection">
+                        <div class="textbg">
+                            <p>LAB GROWN DIAMONDS</p>
+                            <h2>FRAME</h2>
+                            <p class="bottomP">FRAME THE ELEGANCE OF YOUR STYLE</p>
+                            <a href="#" class="button arrow">Discover More</a>
+                        </div>
+                        <div class="textbgImageImg">
+                            <img alt="jewellery" src="/website_sr/static/src/images/bgImage.png" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="bgImageText">
+                    <div class="container">
+                        <div class="textbgImageSection">
+                        <div class="textbgImageImg">
+                            <img alt="jewellery" src="/website_sr/static/src/images/engagement.jpg" />
+                        </div>
+                        <div class="textbg">
+                            <h2 class="mb-5">SMILING BRIDES</h2>
+                            <a href="#" class="button arrow">ENGAGEMENT COLLECTION</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="textbgImage">
+                    <div class="container">
+                        <div class="textbgImageSection">
+                        <div class="textbg">
+                            <p>LAB GROWN DIAMONDS</p>
+                            <h2>FRAME</h2>
+                            <p class="bottomP">FRAME THE ELEGANCE OF YOUR STYLE</p>
+                            <a href="#" class="button arrow">Discover More</a>
+                        </div>
+                        <div class="textbgImageImg">
+                            <img alt="jewellery" src="/website_sr/static/src/images/bgImage.png" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </t>
+    </template>
+    
+    
+    
+    <record id="lookbook_page" model="website.page">
+        <field name="name">Lookbook</field>
+        <field name="is_published" eval="True"/>
+        <field name="url">/pages/lab-grown-diamond-jewelry-lookbook</field>
+        <field name="header_overlay" eval="True"/>
+        <field name="view_id" ref="lookbook_test"/>
+        <field name="track" eval="True"/>
+    </record>
+</odoo>

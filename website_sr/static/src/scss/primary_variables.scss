@@ -1,0 +1,38 @@
+$o-website-values-palettes: (
+    (
+        'color-palettes-name': 'sr',
+
+        // header 
+        'header-template': 'sr',
+        'footer-template': 'sr',
+    ),
+);
+
+
+// font import 
+$o-theme-font-configs: (
+    'Poppins': (
+        'family': ('Poppins',sans-serif),
+        'url': 'Poppins:400,500',
+        'properties': (
+            'base': (
+                'font-size-base': 1rem,
+            ),
+        ),
+    ),
+);
+
+// color palette 
+$o-color-palettes: map-merge($o-color-palettes,
+    (
+        'sr': (
+            'o-color-1': #bee9e8,
+            'o-color-2': #1b4965,
+            'o-color-3': #62b6cb,
+            'o-color-4': #ffffff,
+            'o-color-5': #000000,
+        ),
+    )
+);
+
+$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'sr');

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="celebrites_test" name="Celebrities">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <div class="lookbook">
+                    <div class="container">
+                        <div class="lookbookSection">
+                            <h1>Celebrities</h1>
+                        </div>  
+                    </div>
+                </div>
+                <section class="celebrities">
+                    <div class="container">
+                        <div class="celebrity-section">
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/Gigi_Hadid_1.jpg" alt="image"/>
+                                <p>GIGI HADID</p>
+                                <p class="listingdate">Met Gala · 1 May 2023</p>
+                            </div>    
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/camilacabello.jpg" alt="image"/>
+                                <p>ARIANA GRANDE</p>
+                                <p class="listingdate">Wrap of 'Wicked' Movie - 6 FEB 2024</p>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/Marie_Claire.png" alt="image"/>
+                                <p>GIGI HADID</p>
+                                <p class="listingdate">Oscars 2024 - 10 MAR 2024</p>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/model4.jpg" alt="image"/>
+                                <p>GIGI HADID</p>
+                                <p class="listingdate">Met Gala · 2 MAY 2022</p>
+                            </div>  
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/Gigi_Hadid_1.jpg" alt="image"/>
+                                <p>GIGI HADID</p>
+                                <p class="listingdate">Met Gala · 1 May 2023</p>
+                            </div> 
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/camilacabello.jpg" alt="image"/>
+                                <p>ARIANA GRANDE</p>
+                                <p class="listingdate">Wrap of 'Wicked' Movie - 6 FEB 2024</p>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/Marie_Claire.png" alt="image"/>
+                                <p>GIGI HADID</p>
+                                <p class="listingdate">Oscars 2024 - 10 MAR 2024</p>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/model4.jpg" alt="image"/>
+                                <p>GIGI HADID</p>
+                                <p class="listingdate">Met Gala · 2 MAY 2022</p>
+                            </div>                             
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/Gigi_Hadid_1.jpg" alt="image"/>
+                                <p>GIGI HADID</p>
+                                <p class="listingdate">Met Gala · 1 May 2023</p>
+                            </div> 
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/camilacabello.jpg" alt="image"/>
+                                <p>ARIANA GRANDE</p>
+                                <p class="listingdate">Wrap of 'Wicked' Movie - 6 FEB 2024</p>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/Marie_Claire.png" alt="image"/>
+                                <p>GIGI HADID</p>
+                                <p class="listingdate">Oscars 2024 - 10 MAR 2024</p>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/model4.jpg" alt="image"/>
+                                <p>GIGI HADID</p>
+                                <p class="listingdate">Met Gala · 2 MAY 2022</p>
+                            </div> 
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/Gigi_Hadid_1.jpg" alt="image"/>
+                                <p>GIGI HADID</p>
+                                <p class="listingdate">Met Gala · 1 May 2023</p>
+                            </div> 
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/camilacabello.jpg" alt="image"/>
+                                <p>ARIANA GRANDE</p>
+                                <p class="listingdate">Wrap of 'Wicked' Movie - 6 FEB 2024</p>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/Marie_Claire.png" alt="image"/>
+                                <p>GIGI HADID</p>
+                                <p class="listingdate">Oscars 2024 - 10 MAR 2024</p>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/model4.jpg" alt="image"/>
+                                <p>GIGI HADID</p>
+                                <p class="listingdate">Met Gala · 2 MAY 2022</p>
+                            </div>             
+                        </div>
+                    </div>
+                </section>
+
+                
+            </div>  
+        </t>
+    </template>
+    
+    
+    
+    <record id="celebrites_page" model="website.page">
+        <field name="name">Celebrities</field>
+        <field name="is_published" eval="True"/>
+        <field name="url">/pages/celebrities</field>
+        <field name="header_overlay" eval="True"/>
+        <field name="view_id" ref="celebrites_test"/>
+        <field name="track" eval="True"/>
+    </record>
+</odoo>

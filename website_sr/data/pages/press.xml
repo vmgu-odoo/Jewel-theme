@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="press_test" name="Press">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <div class="lookbook">
+                    <div class="container">
+                        <div class="lookbookSection">
+                            <p class="mb-4">PRESS</p>
+                            <h1>Smiling Rocks in the News</h1>
+                        </div>  
+                    </div>
+                </div>
+
+                <section class="feature">
+                    <div class="container">
+                        <div class="feature-section">
+                            <div class="feature-card text-center">
+                            <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                            <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                            <p class="listingdate">APRIL 16, 2024</p>
+                            <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                            <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                            <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                            <p class="listingdate">APRIL 16, 2024</p>
+                            <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                            <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                            <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                            <p class="listingdate">APRIL 16, 2024</p>
+                            <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                            <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                            <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                            <p class="listingdate">APRIL 16, 2024</p>
+                            <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                            <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                            <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                            <p class="listingdate">APRIL 16, 2024</p>
+                            <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                            <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                            <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                            <p class="listingdate">APRIL 16, 2024</p>
+                            <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>
+                            <div class="feature-card text-center">
+                                <img src="/website_sr/static/src/images/newsListinglogo.png" alt="image"/>
+                                <p>Would you buy a lab-grown diamond? Here are the pros and cons</p>
+                                <p class="listingdate">APRIL 16, 2024</p>
+                                <a href="#" class="button arrow">READ MORE</a>
+                            </div>                       
+                        </div>
+                    </div>
+                </section>
+            </div>  
+        </t>
+    </template>
+    
+    
+    
+    <record id="press_page" model="website.page">
+        <field name="name">Press</field>
+        <field name="is_published" eval="True"/>
+        <field name="url">/pages/lab-grown-diamond-jewelry-smiling-rocks-in-the-news</field>
+        <field name="header_overlay" eval="True"/>
+        <field name="view_id" ref="press_test"/>
+        <field name="track" eval="True"/>
+    </record>
+</odoo>

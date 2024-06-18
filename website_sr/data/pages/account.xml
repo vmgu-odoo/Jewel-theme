@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="account_test" name="Account">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <h1>Account</h1>
+            </div>  
+        </t>
+    </template>
+    
+    
+    
+    <record id="account_page" model="website.page">
+        <field name="name">Account</field>
+        <field name="is_published" eval="True"/>
+        <field name="url">/account</field>
+        <field name="header_overlay" eval="True"/>
+        <field name="view_id" ref="account_test"/>
+        <field name="track" eval="True"/>
+    </record>
+</odoo>

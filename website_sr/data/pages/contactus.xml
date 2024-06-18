@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="contact_us_test" name="Contact Us">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <div class="contactus">
+                    <div class="container">
+                        <div class="contactusbanner">
+                            <div class="contactustext">
+                                <h1>Contact Us</h1>
+                                <p>Have a comment, suggestion or queestion? Feel free to reach out to us and we’ll getback to you as soon as possible.</p>
+                            </div>
+                            <div class="contactusForm">
+                                <form action="#" method="post">
+                                    <div class="form-group flex-container">
+                                        <input type="text" name="full_name" placeholder="Full Name" />
+                                        <input type="text" name="email_address" placeholder="Email Address" />
+                                    </div>
+                                    <div class="form-group flex-container">
+                                        <input type="text" name="phone_number" placeholder="Phone Number" />
+                                        <select id="category" name="category">
+                                            <option value="">Subject</option>
+                                            <option value="option1">Customer Service</option>
+                                            <option value="option2">Order Tracking</option>
+                                            <option value="option3">Appointment</option>
+                                            <option value="option4">Online Retailer Partnership</option>
+                                            <option value="option5">Other Inquiry</option>
+                                        </select>   
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="message" rows="5" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <a href="#" class="button arrow" type="submit" value="Submit">SUBMIT</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contactdetail">
+                    <div class="container">
+                        <div class="contactbannerbottom">
+                            <div class="haveQuestions">
+                                <p class="pque">Have questions?</p>
+                                <p>Smiling Rocks is Here For You! Fill the line below or email us directly</p>
+                                <p><span class="pointbold">General inquiries:</span> Info@smilingrocks.com</p>
+                                <p><span class="pointbold">Customer inquiries:</span> order@smilingrocks.com</p>
+                                <p><span class="pointbold">Orders and Returns:</span> order@smilingrocks.com</p>
+                                <p>If you are looking for instant answers, check out our FAQ page for more information!</p>
+                                </div>
+                            <div class="oandD">
+                                    <p class="pque">Orders and Returns</p>
+                                    <p>Check out our FAQ page or our Orders and Retuns page</p>
+                            </div>
+                            <div class="callUs">
+                                <p class="pque">Call us at +1 212 596 4163</p>
+                                <p>Our customer service team is available by phone from Monday-Friday 9.30am-6:30pm EST and Saturday 10am-5pm EST.</p>
+                                <p>Our office is located at 33W 46th Str, STE#9W, New York, NY 10036</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="featureCard">
+                    <div class="container">
+                        <div>
+                            <h2 class="text-center">The Smiling Rocks Difference</h2>
+                            <div class="featureCardDiscription">
+                                <div class="featureCard1 text-center">
+                                    <img src="/website_sr/static/src/images/icon1banner.png" alt="image"/>
+                                    <p>Lab Grown Diamond Jewelry</p>
+                                    <a href="#" class="button arrow">Learn More</a>
+                                </div>
+                                <div class="featureCard2 text-center">
+                                    <img src="/website_sr/static/src/images/icon2banner.gif" alt="image"/>
+                                    <p>3% of each purchase goes to charity</p>
+                                    <a href="#" class="button arrow">Learn More</a>
+                                </div>
+                                 <div class="featureCard3 text-center">
+                                    <img src="/website_sr/static/src/images/icon3banner.png" alt="image"/>
+                                    <p>Laser inscribed diamonds with Smiling Rocks logo</p>
+                                    <a href="#" class="button arrow">Learn More</a>
+                                </div>
+                                 <div class="featureCard4 text-center">
+                                    <img src="/website_sr/static/src/images/icon1banner.png" alt="image"/>
+                                    <p>ESG+ Certified Brand Butterfly Mark</p>
+                                    <a href="#" class="button arrow">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </t>
+    </template>
+    
+    
+    
+    <record id="contact_page" model="website.page">
+        <field name="name">Contact Us</field>
+        <field name="is_published" eval="True"/>
+        <field name="url">/pages/contact-us</field>
+        <field name="header_overlay" eval="True"/>
+        <field name="view_id" ref="contact_us_test"/>
+        <field name="track" eval="True"/>
+    </record>
+</odoo>
